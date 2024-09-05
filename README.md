@@ -42,8 +42,22 @@ This project involves developing an AI-driven web scraper that extracts and stru
 
 ## Installation and Setup
 
-1. **Clone the Repository**
+
+1. **Install Dependencies**: Ensure you have Python installed. Then, install all required dependencies:
 
    ```bash
-   git clone https://github.com/ankitk75/your-repository.git
-   cd your-repository
+   pip install -r requirements.txt
+    ```
+   
+2. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/ankitk75/AI-Web-Scraper-Chatbot-using-Llama3.1.git
+   cd AI-Web-Scraper-Chatbot-using-Llama3.1
+    ```
+
+3. **Run the Application:** Start the Streamlit application:
+
+   ```bash
+   streamlit run main.py
+    ```
